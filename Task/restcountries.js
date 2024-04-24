@@ -53042,25 +53042,25 @@ let data = [
   ]
 
   // To print all the countries present in the region "Asia" using filter function
-//   let asiacountries = data.filter(item => item.region == "Asia")
-//   for (let y in asiacountries){
-//     console.log(asiacountries[y].name.common)
-//   }
+  let asiacountries = data.filter(item => item.region == "Asia")
+  for (let y in asiacountries){
+    console.log(asiacountries[y].name.common)
+  }
 
   // To print the countries of population having less than 2 lakhs using filter function
-//   let lesspopulation = data.filter(ele => ele.population < 200000)
-//   for (let x in lesspopulation){
-//     console.log(lesspopulation[x].name.common)
-//   }
+  let lesspopulation = data.filter(ele => ele.population < 200000)
+  for (let x in lesspopulation){
+    console.log(lesspopulation[x].name.common)
+  }
 
 // To print the name,capital,flag of the countries using forEach loop.
-// data.forEach((element) => {
-//     console.log(element.name.common, element.capital, element.flag)
-// })
+data.forEach((element) => {
+    console.log(element.name.common, element.capital, element.flag)
+})
 
 // To print the total population of countries using reduce function
-//   let populationsum = data.reduce((result,countries) => result+countries.population,0);
-//   console.log(populationsum)
+  let populationsum = data.reduce((result,countries) => result+countries.population,0);
+  console.log(populationsum)
 
 // To print the countries using US dollar as currency
   
